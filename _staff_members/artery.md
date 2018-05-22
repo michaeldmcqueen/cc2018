@@ -2,5 +2,5 @@
 name: Downtown Artery
 position: 
 image_path: "/images/downtown-artery.png"
-twitter: CloudCannonApp
+website: https://downtownartery.com
 ---

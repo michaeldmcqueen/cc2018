@@ -69,16 +69,15 @@ pre {
 	display: inline-block;
 	position: relative;
 	z-index: 1;
-	font-style: italic;
 	color: #1a8c96;
 }
 .accent:before {
 	content: '';
 	height: 8px;
-	width: 100%;
+	width: 90%;
 	background: #1a8c9633;
 	position: absolute;
 	z-index: -1;
-	left: -5px;
+	left: -3px;
 	bottom: 4px;
 }
