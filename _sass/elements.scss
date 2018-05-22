@@ -70,14 +70,15 @@ pre {
 	position: relative;
 	z-index: 1;
 	font-style: italic;
+	color: #1a8c96;
 }
 .accent:before {
 	content: '';
-	height: 10px;
+	height: 8px;
 	width: 100%;
-	background: #bcd8fa;
+	background: #1a8c9633;
 	position: absolute;
 	z-index: -1;
 	left: -5px;
-	bottom: 2px;
+	bottom: 4px;
 }

@@ -1,19 +1,15 @@
 - title: Pages
   links:
-    - name: Home
-      link: /
-    - name: Portfolio
-      link: /portfolio/
-    - name: Blog
-      link: /blog/
     - name: About
       link: /about/
-    - name: Contact
-      link: /contact/
+    - name: Our Sponsors
+      link: /our-sponsors/
+    - name: Donate
+      link: /donate/
 - title: Social
   links:
     - name: Facebook
-      link:
+      link: https://www.facebook.com/corecommunities.npo/
       social_icon: Facebook
       new_window: true
     - name: Twitter
