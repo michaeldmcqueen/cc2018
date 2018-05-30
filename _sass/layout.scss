@@ -111,21 +111,31 @@ section {
 		background: $brand-color;
 		text-align: left;
 		margin-top: -100px;
-		padding-top: 450px;
-
+    padding-top: 250px;
+    padding-bottom: 40px;
+		@media #{$tablet} {
+			padding-top: 350px;
+			padding-bottom: 100px;
+		}
 		h2, p {
 			max-width: 90%;
 		}
 
 		h2 {
-			font-size: 3.5rem;
+			font-size: 2.5rem;
 			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
+			@media #{$tablet} {
+				font-size: 3.5rem;
+			}
 		}
 
 		p {
-			font-size: 1.8rem;
+			font-size: 1.2rem;
 			color: #fff;
 			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
+			@media #{$tablet} {
+				font-size: 1.8rem;
+			}
 		}
 
 		a:not(.button) {
@@ -139,6 +149,9 @@ section {
 		video {
 			position: fixed;
 			top: 0;
+			@media #{$lg-desktop} {
+			width: calc(100% + 120px);
+			}
 		// 	left: 50%;
 		// 	min-width: 100%;
 		// 	min-height: 100%;
@@ -304,8 +317,9 @@ section {
 	padding: 50px 0 175px;
 }
 .home-calls {
-	display: flex;
-
+	@media #{$tablet} {
+	  display: flex;
+	}
 	.diagonal {
 		-webkit-transform: skewY(-5deg);
     -moz-transform: skewY(-5deg);
