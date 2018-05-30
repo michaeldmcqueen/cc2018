@@ -13,7 +13,9 @@
 	max-width: 1000px;
 }
 .container-wide {
-	max-width: 1400px;
+	@media #{$mid-point} {
+	  max-width: 85%;
+	}
 }
 
 @keyframes dropIn {
@@ -117,16 +119,22 @@ section {
 
 		h2 {
 			font-size: 3.5rem;
+			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
 		}
 
 		p {
 			font-size: 1.8rem;
 			color: #fff;
+			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
 		}
 
 		a:not(.button) {
 			color: #ffffff;
 			font-style: italic;
+			text-shadow: none;
+		}
+		a {
+			text-shadow:none;
 		}
 		video {
 			position: fixed;
@@ -288,5 +296,53 @@ section {
 	&,
 	p {
 		color: #fefefe;
+	}
+}
+
+
+.home-calls-wrap {
+	padding: 50px 0 175px;
+}
+.home-calls {
+	display: flex;
+
+	.diagonal {
+		-webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+		@media #{$tablet} {
+			width: 33.3%;
+			display: flex;
+			margin: 0 10px;
+		}
+	}
+	.reverse-diagonal {
+		background: #efefef;
+		padding: 2rem;
+	}
+	img {
+		-webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+		transform: skewY(5deg);
+		max-width: 80%;
+		display: block;
+		margin: 1rem auto 2rem;
+	}
+	.mission {
+		@media #{$tablet} {
+      margin-top: 6%;
+		}
+	}
+	.vision {
+		@media #{$tablet} {
+		  margin-top: 3%;
+
+		}
+	}
+	.our-content {
+		@media #{$tablet} {
+		}
 	}
 }
