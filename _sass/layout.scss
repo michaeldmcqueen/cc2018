@@ -107,6 +107,7 @@ section {
 	}
 
 	&.hero {
+
 		color: #ffffff;
 		background: $brand-color;
 		text-align: left;
@@ -123,7 +124,6 @@ section {
 
 		h2 {
 			font-size: 2.5rem;
-			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
 			@media #{$tablet} {
 				font-size: 3.5rem;
 			}
@@ -132,7 +132,6 @@ section {
 		p {
 			font-size: 1.2rem;
 			color: #fff;
-			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
 			@media #{$tablet} {
 				font-size: 1.8rem;
 			}
@@ -164,7 +163,14 @@ section {
 		//   transition: 1s opacity;
 		}
 	}
-
+  &.home-hero {
+		h2 {
+			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
+		}
+		p {
+			text-shadow: 1px 2px 20px rgba(0,0,0,0.65);
+		}
+	}
 	&.alternate {
 		background: #eee;
 	}
@@ -313,10 +319,10 @@ section {
 }
 
 
-.home-calls-wrap {
+.calls-wrap {
 	padding: 50px 0 175px;
 }
-.home-calls {
+.calls {
 	@media #{$tablet} {
 	  display: flex;
 	}
@@ -344,18 +350,18 @@ section {
 		display: block;
 		margin: 1rem auto 2rem;
 	}
-	.mission {
+	.one {
 		@media #{$tablet} {
       margin-top: 6%;
 		}
 	}
-	.vision {
+	.two {
 		@media #{$tablet} {
 		  margin-top: 3%;
 
 		}
 	}
-	.our-content {
+	.three {
 		@media #{$tablet} {
 		}
 	}
