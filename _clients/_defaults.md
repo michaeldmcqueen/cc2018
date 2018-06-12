@@ -1,6 +1,7 @@
 ---
 name:
-subtitle:
-external_url:
-image_path:
+description: 
+video_embed:
+image_path: 
+website: 
 ---

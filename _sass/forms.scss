@@ -72,9 +72,10 @@ textarea:focus {
 	border: 1px solid rgba(81, 203, 238, 1);
 }
 
-input[type=image] {
+.paypal input[type=image] {
   padding: 0;
   width: auto;
   border: 0;
-  margin-top: 3rem;
+	margin: 0 auto;
+	max-width: 300px;
 }

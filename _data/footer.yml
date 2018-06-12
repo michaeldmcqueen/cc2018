@@ -2,11 +2,11 @@
   links:
     - name: About
       link: /about/
-    - name: Our Sponsors
-      link: /our-sponsors/
-    - name: Donate
-      link: /donate/
-- title: Social
+    - name: Collaborators
+      link: /collaborators/
+    - name: Join Us
+      link: /join-us/
+- title: Follow Us
   links:
     - name: Facebook
       link: https://www.facebook.com/corecommunities.npo/

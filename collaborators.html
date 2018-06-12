@@ -3,13 +3,19 @@ title: Collaborators
 heading: Collaborators
 ---
 
-<section class="diagonal patterned">
+<section class="diagonal ">
 	<div class="container">
-	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
-		<ul class="image-grid">
-			{% for member in site.staff_members %}
-				<li>{% include staff-member.html member=member %}</li>
+	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_clients/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
+		<div class="collab-grid">
+			{% for client in site.clients %}
+				<div class="collab-grid--item">
+						<h2>{{ client.name }}</h2>
+						<div class="videoWrapper">
+						  {{ client.video_embed }}
+						</div>
+					  
+				</div>
 			{% endfor %}
-		</ul>
+		</div>
 	</div>
 </section>
