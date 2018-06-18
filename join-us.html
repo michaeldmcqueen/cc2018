@@ -50,7 +50,9 @@ subtitle: Help us grow Videos That Matter's content to reach communities all acr
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Sponsors</a></p>
 			<ul class="image-grid">
 				{% for member in site.staff_members %}
+				{% if member.bod == No %}
 					<li>{% include staff-member.html member=member %}</li>
+					{% endif %}
 				{% endfor %}
 			</ul>
 		</div>
