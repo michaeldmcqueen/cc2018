@@ -1,8 +1,8 @@
 ---
-name: Alex Gervacio
+name: Amy Moellering
 bod: 'Yes'
 position:
-image_path: /uploads/alex-gervacio.jpg
-website: 'https://www.linkedin.com/in/alex-gervacio-mba-2036a02/'
+image_path: /uploads/amy-moellering.jpg
+website: 'https://www.linkedin.com/in/amy-moellering-42a3564/'
 ---
 
