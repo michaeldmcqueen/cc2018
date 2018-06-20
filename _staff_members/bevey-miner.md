@@ -1,7 +1,8 @@
 ---
-name: Kent Bradley
-bod: Yes
-position: Executive Director
-image_path: "/images/Kent_Pic.jpg"
-website: https://www.linkedin.com/in/kentbradley/
+name: Bevey Miner
+bod: 'Yes'
+position:
+image_path: /uploads/bevey-miner.jpg
+website: 'https://www.linkedin.com/in/bevey-miner-7074688/'
 ---
+
