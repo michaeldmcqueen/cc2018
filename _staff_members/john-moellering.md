@@ -1,8 +1,8 @@
 ---
-name: Bevey Miner
+name: John Moellering
 bod: 'Yes'
 position:
-image_path: /uploads/bevey-miner.jpg
-website: 'https://www.linkedin.com/in/bevey-miner-7074688/'
+image_path: /uploads/unnamed.jpg
+website: 'https://www.linkedin.com/in/johnmoelleringjr/'
 ---
 
