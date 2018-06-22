@@ -382,10 +382,10 @@ section {
 			float: left;
 			width: 150px;
 			margin-right: 1rem;
-			clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
+			clip-path: polygon(0% 7%, 100% 0%, 100% 92%, 0% 100%);
 			@media #{$tablet} {
-				width: 300px;
-				margin-right: 3rem;
+				width: 200px;
+				margin-right: 2rem;
 			}
 		}
 		.bod-details {
@@ -404,5 +404,5 @@ section {
 }
 .bod-section-title {
 	margin-bottom: 4rem;
-
+  font-size: 2rem;
 }
